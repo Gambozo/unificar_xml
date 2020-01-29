@@ -1,7 +1,6 @@
 <?php
 $domain = 'http://www.sicadi.com.br/';
 error_reporting(E_ALL);
-error_reporting(E_ALL ^ E_NOTICE);
 //Corrige as entidades especiais HTML
 function htmlspecial($string)
 {
